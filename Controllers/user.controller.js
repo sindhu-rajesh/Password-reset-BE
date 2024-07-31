@@ -1,6 +1,6 @@
 import Users from "../Models/user.schema.js"
 import bcrypt from "bcryptjs"
-import mail from "../Services/nodemailer.services.js";
+import mail from "../Services/nodemailer.service.js"
 import randomString from "randomstring"
 
 

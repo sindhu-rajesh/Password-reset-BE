@@ -1,5 +1,4 @@
-import nodemailer from "../Services/nodemailer.service.js";
-import Controller from "./Controllers/user.controller.js";
+import nodemailer from "nodemailer"
 import dotenv from "dotenv"
 dotenv.config(); // Configure dotenv to load environment variables from a .env file
 
